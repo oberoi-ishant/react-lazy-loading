@@ -30,7 +30,7 @@ export default class MyApp extends React.Component {
 ## Parameters
 - loader: function to import the component.
 - DefaultComp: (optional) default component shown until  loading.
-- ErrorComp: (optional) ErrorComp shown if there is an error in load.
+- ErrorComp: (optional) shown if there is an error in load.
   Default value for DefaultComp and ErrorComp is null.
 - delay: (optional) time in milliseconds before request is fired.
 - name: (optinal) name of the module to be rendered if expected module is not the default exported module.
