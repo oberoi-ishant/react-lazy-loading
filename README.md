@@ -3,13 +3,13 @@
 ## Install
 
 ```sh
-npm install react-lazy-component
+npm install react-component-lazy-load
 ```
 
 ## Example
 
 ```js
-import ReactLoader from 'react-lazy-component';
+import ReactLoader from 'react-component-lazy-load';
 import DefaultComp from './my-default-component';
 
 const ErrorComp = ({ loadError }) => <div>Error: { loadError.message }</div>;
