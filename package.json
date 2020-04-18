@@ -16,6 +16,7 @@
     "import",
     "promise"
   ],
+  "homepage": "https://github.com/oberoi-ishant/react-lazy-loading",
   "repository": {
     "type" : "git",
     "url" : "https://github.com/oberoi-ishant/react-lazy-loading.git"
