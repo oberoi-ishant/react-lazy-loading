@@ -1,0 +1,22 @@
+{
+  "name": "react-lazy-loading",
+  "version": "1.0.0",
+  "description": "Lazy loading of react component using dynamic import and promise",
+  "main": "reactLoaderMin",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "keywords": [
+    "react",
+    "lazy",
+    "load",
+    "component",
+    "dynamic",
+    "import"
+  ],
+  "author": "ubo.oberoi@gmail.com",
+  "license": "ISC"
+}
