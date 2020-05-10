@@ -50,7 +50,7 @@ const ReactLoader = function ({
 
     loadComp() {
       if (!isNaN(delay)) {
-        setTimeout(this.processLoad.bind(this), delay);
+        this.timeout = setTimeout(this.processLoad.bind(this), delay);
         return;
       }
       this.processLoad();
@@ -63,6 +63,12 @@ const ReactLoader = function ({
           loadError: this.state.loadError,
           ...this.props
       }, null);
+    }
+
+    componentWillUnmount() {
+      if (this.timeout) {
+        clearTimeout(this.timeout);
+      }
     }
   }
 
