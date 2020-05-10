@@ -1,6 +1,6 @@
 {
   "name": "react-component-lazy-load",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Lazy loading of react component using dynamic import and promise",
   "main": "dist/bundle.js",
   "scripts": {
@@ -18,8 +18,8 @@
   ],
   "homepage": "https://github.com/oberoi-ishant/react-lazy-loading",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/oberoi-ishant/react-lazy-loading.git"
+    "type": "git",
+    "url": "https://github.com/oberoi-ishant/react-lazy-loading.git"
   },
   "author": "ubo.oberoi@gmail.com",
   "license": "ISC",
@@ -30,6 +30,7 @@
     "@babel/preset-react": "^7.9.4",
     "babel-loader": "^8.1.0",
     "react": "^16.13.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
   },
