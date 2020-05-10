@@ -1,6 +1,6 @@
 {
   "name": "react-component-lazy-load",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Lazy loading of react component using dynamic import and promise",
   "main": "dist/bundle.js",
   "scripts": {
