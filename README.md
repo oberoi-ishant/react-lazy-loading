@@ -33,7 +33,7 @@ export default class MyApp extends React.Component {
 - ErrorComp: (optional) shown if there is an error in load.
   Default value for DefaultComp and ErrorComp is null.
 - delay: (optional) time in milliseconds before request is fired.
-- name: (optional) name of the module to be rendered if expected module is not the default exported module.
+- name: (optional) name of the module to be rendered (if expected module is not the default exported module).
 
 ## Props injected
 - loadFinished: (Boolean) to indicate if the the request has finished.
